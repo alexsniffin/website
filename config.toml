@@ -45,6 +45,9 @@ copyright = "All rights reserved - 2020"
   [[params.social]]
     fa_icon = "fab fa-linkedin-in fa-1x"
     href = "https://www.linkedin.com/in/alexander-sniffin-93b15511a"
+  [[params.social]]
+    fa_icon = "fas fa-envelope fa-1x"
+    href = "mailto:alexsniffin@gmail.com"
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
