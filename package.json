@@ -1,0 +1,20 @@
+{
+  "name": "alexsniffin",
+  "version": "1.0.0",
+  "description": "alexsniffin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3"
+  },
+  "keywords": [
+    "hugo",
+    "theme"
+  ],
+  "author": "Alexander Sniffin",
+  "license": "MIT",
+  "devDependencies": {}
+}
