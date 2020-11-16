@@ -3,6 +3,7 @@ date = "2020-10-31T14:44:24+05:00"
 draft = false
 title = "Hello World"
 slug = "hello-world"
+keywords = ["go"]
 tags = ["go","concurrency","paralellism","programming"]
 image = ""
 comments = false	# set false to hide Disqus
@@ -24,4 +25,4 @@ And now for a quote:
 > It’s not a bug – it’s an undocumented feature
 
 Awesome, time to add some real things!
-![make it so](https://media.giphy.com/media/bKnEnd65zqxfq/giphy.gif)
+![make it so](https://media.giphy.com/media/bKnEnd65zqxfq/giphy.gif#center)

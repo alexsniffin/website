@@ -21,12 +21,6 @@ copyright = "All rights reserved - 2020"
     title = "Posts"
     url = "/post/"
     weight = -100
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
-    weight = -90
 
 # Configuration Features
 [params]
@@ -58,10 +52,10 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 # An arbitrary name for this target.
-name = "www.alexsniffin.com"
+name = "alexsniffin.com"
 # The Go Cloud Development Kit URL to deploy to. Examples:
 # GCS; see https://gocloud.dev/howto/blob/#gcs
-URL = "gs://www.alexsniffin.com"
+URL = "gs://alexsniffin.com"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
 # cloudFrontDistributionID = <ID>
