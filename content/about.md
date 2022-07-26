@@ -1,5 +1,4 @@
-I'm a software engineer and computer enthusiast. I've been programming for over 15 years and over 4 years professionally. My journey started with my fascination of computers and curiosity for how they worked. I then went on to get two degrees, one in computing and one in business.
 
-Throughout my professional career I strive to go beyond the status quo to build and deliver innovative solutions to challenging problems. In my personal time I like to work on open-source projects, write engineering blogs, and work on personal projects.
+I'm a software engineer that strives to solve challenging problems through innovation and deliver business value by going beyond the status quo! In my personal time, I like to learn about technology I don't normally get to learn on the job. Occasionally, I contribute to open-source projects or write my own software engineering blogs! If you didn't notice by the gopher avatar, [Go](https://go.dev/) is my *go-to* language to work with.
 
-Some topics that get me excited: Go, Scala, Rust, Distributed Systems, Clean Code and Clean Architecture!
+![go to](https://imgs.xkcd.com/comics/goto.png)

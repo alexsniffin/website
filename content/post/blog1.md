@@ -4,7 +4,7 @@ draft = false
 title = "Hello World"
 slug = "hello-world"
 keywords = ["go"]
-tags = ["go","concurrency","paralellism","programming"]
+tags = ["go","concurrency","parallelism","programming"]
 image = ""
 comments = false	# set false to hide Disqus
 share = false	# set false to hide share buttons
@@ -12,7 +12,7 @@ menu= ""		# set "main" to add this content to the main menu
 author = ""
 +++
 
-Yey, it's the begining of [alexsniffin.com](http://www.alexsniffin.com)!
+Yey, it's the beginning of [alexsniffin.com](http://www.alexsniffin.com)!
 
 Let's try some code:
 ```go

@@ -5,7 +5,7 @@ relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "All rights reserved - 2020"
+copyright = "All rights reserved - 2022"
 
 # Main menu items
 [menu]
@@ -24,7 +24,7 @@ copyright = "All rights reserved - 2020"
 
 # Configuration Features
 [params]
-  description = "Alexander Sniffin, Software Enigneer, Programmer, Developer"      # Your meta description of the site
+  description = "Alexander Sniffin, Software Engineer, Programmer, Developer"      # Your meta description of the site
   header_title = "Alexander Sniffin"                 # Your header title
   header_subtitle = "Software Engineer" # Your header subtitle
   home_image = "/images/avatar.png"          # Path to header image starting from the static directory
