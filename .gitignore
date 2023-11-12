@@ -3,3 +3,5 @@ public
 resources
 *.csr
 *.key
+.idea
+.hugo_build.lock

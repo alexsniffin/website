@@ -1,24 +1,13 @@
 <div class="pl-sm-4 ml-sm-5 pt-2">
     <div class="row">
         <div class="col-12">
-            {{ $recent := 7 }}
-            {{ if isset .Site.Params "recent_posts" }}
-                {{ $recent = .Site.Params.recent_posts }}
-            {{ end }}
-            <div class="pb-3">
-                <h5><span class="badge category">Recent</span></h5>
-                <ul class="list-unstyled">
-                    {{ range first $recent (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
-                        <li>
-                            {{ .Date.Format "Jan 2 2006" }}
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            </div>
             <div class="pb-3">
                 <h5><span class="badge category">Medium</span></h5>
                 <ul class="list-unstyled">
+                    <li>
+                        Nov 12 2023
+                        <a href="https://alexsniffin.medium.com/building-an-openai-gpt-with-your-api-a-step-by-step-guide-70168bef00e7?source=friends_link&sk=dd44b19ff0e1e1159ebb43efd68c9edc">Building An OpenAI GPT with Your API: A Step-by-Step Guide</a>
+                    </li>
                     <li>
                         Jun 4 2023
                         <a href="https://alexsniffin.medium.com/a-guide-to-building-a-kubernetes-cluster-with-raspberry-pis-23fa4938d420">A Guide to Building a Kubernetes Cluster with Raspberry Pi’s</a>
@@ -37,13 +26,19 @@
                     </li>
                 </ul>
             </div>
+            {{ $recent := 7 }}
+            {{ if isset .Site.Params "recent_posts" }}
+                {{ $recent = .Site.Params.recent_posts }}
+            {{ end }}
             <div class="pb-3">
                 <h5><span class="badge category">Other</span></h5>
                 <ul class="list-unstyled">
-                    <li>
-                        Sept 23 2022
-                        <a href="https://youtu.be/8Ab3ArE8W3s">"Stop Writing Dead Programs" by Jack Rusher (Strange Loop 2022)</a>
-                    </li>
+                    {{ range first $recent (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
+                        <li>
+                            {{ .Date.Format "Jan 2 2006" }}
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                    {{ end }}
                 </ul>
             </div>
 
