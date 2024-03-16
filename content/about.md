@@ -1,1 +1,1 @@
-Alexander Sniffin is a software engineer. He has over 7 years of professional experience and 16 years of personal experience programming. Some of his interests are: Go, Distributed Systems and Large Language Models.
+Alexander is a software engineer with over 7+ years of professional experience and 16+ years of personal experience writing software. His interests are in: Programming, Distributed Systems, NLP and Autonomous Systems.
