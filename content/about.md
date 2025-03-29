@@ -1,1 +1,1 @@
-Alexander is a software engineer with over 7+ years of professional experience and 16+ years of personal experience writing software. His interests are in: Programming, Distributed Systems, NLP and Autonomous Systems.
+Alexander is a software engineer with over a decade of professional experience. His interests are in: Programming, Distributed Systems, NLP and Autonomous Systems.
